@@ -59,7 +59,6 @@ active	slock.c	/^	int active;$/;"	m	struct:xrandr	typeref:typename:int	file:
 all	Makefile	/^all: options slock$/;"	t
 argv0	slock.c	/^char *argv0;$/;"	v	typeref:typename:char *
 clean	Makefile	/^clean:$/;"	t
-colorname	config.def.h	/^static const char *colorname[NUMCOLS] = {$/;"	v	typeref:typename:const char * []
 colorname	config.h	/^static const char *colorname[NUMCOLS] = {$/;"	v	typeref:typename:const char * []
 colors	slock.c	/^	unsigned long colors[NUMCOLS];$/;"	m	struct:lock	typeref:typename:unsigned long[]	file:
 config.h	Makefile	/^config.h:$/;"	t
@@ -69,16 +68,13 @@ dontkillme	slock.c	/^dontkillme(void)$/;"	f	typeref:typename:void	file:
 errbase	slock.c	/^	int errbase;$/;"	m	struct:xrandr	typeref:typename:int	file:
 evbase	slock.c	/^	int evbase;$/;"	m	struct:xrandr	typeref:typename:int	file:
 explicit_bzero	explicit_bzero.c	/^explicit_bzero(void *buf, size_t len)$/;"	f	typeref:typename:void
-failonclear	config.def.h	/^static const int failonclear = 1;$/;"	v	typeref:typename:const int
 failonclear	config.h	/^static const int failonclear = 1;$/;"	v	typeref:typename:const int
 gethash	slock.c	/^gethash(void)$/;"	f	typeref:typename:const char *	file:
-group	config.def.h	/^static const char *group = "wheel";$/;"	v	typeref:typename:const char *
 group	config.h	/^static const char *group = "wheel";$/;"	v	typeref:typename:const char *
 install	Makefile	/^install: all$/;"	t
 lock	slock.c	/^struct lock {$/;"	s	file:
 lockscreen	slock.c	/^lockscreen(Display *dpy, struct xrandr *rr, int screen)$/;"	f	typeref:struct:lock *	file:
 main	slock.c	/^main(int argc, char **argv) {$/;"	f	typeref:typename:int
-monitortime	config.def.h	/^static const int monitortime = 3;$/;"	v	typeref:typename:const int
 monitortime	config.h	/^static const int monitortime = 3;$/;"	v	typeref:typename:const int
 options	Makefile	/^options:$/;"	t
 pmap	slock.c	/^	Pixmap pmap;$/;"	m	struct:lock	typeref:typename:Pixmap	file:
@@ -88,7 +84,6 @@ screen	slock.c	/^	int screen;$/;"	m	struct:lock	typeref:typename:int	file:
 slock	Makefile	/^slock: ${OBJ}$/;"	t
 uninstall	Makefile	/^uninstall:$/;"	t
 usage	slock.c	/^usage(void)$/;"	f	typeref:typename:void	file:
-user	config.def.h	/^static const char *user  = "eirik";$/;"	v	typeref:typename:const char *
 user	config.h	/^static const char *user  = "eirik";$/;"	v	typeref:typename:const char *
 win	slock.c	/^	Window root, win;$/;"	m	struct:lock	typeref:typename:Window	file:
 xrandr	slock.c	/^struct xrandr {$/;"	s	file:
