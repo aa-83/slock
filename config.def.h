@@ -5,8 +5,9 @@ static const char *group = "nogroup";
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "black",     /* after initialization */
 	[INPUT] =  "#0FF",   /* during input */
++	[INPUT_ALT] = "#f0f", /* during input, second color */
 	[FAILED] = "#F00",   /* wrong password */
-	[CAPS] = "#FF00FF",         /* CapsLock on */
+	[CAPS] = "#FFa000",         /* CapsLock on */
 };
 
 /* treat a cleared input like a wrong password (color) */
